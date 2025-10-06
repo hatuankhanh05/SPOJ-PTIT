@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define ll long long
+
 void solve() {
     int n;
     cin >> n;
@@ -11,7 +13,7 @@ void solve() {
         }
     }
     int last = 0;
-    long long ans = 0;
+    ll ans = 0;
     int inf = 1e9 + 1;
     bool vst[n] = {};
     vst[0] = 1;
